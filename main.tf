@@ -7,12 +7,12 @@ module "rg" {
 
 module "vnet" {
 
-  source = "github.com/saiprakash07/terraform-loganalytics"
+  source = "github.com/saiprakash07/terraform-azurerm-loganalytics"
 
 }
 
 module "subnet" {
 
-  source = "github.com/saiprakash07/terraform-aks"
+  source = "github.com/saiprakash07/terraform-azurerm-aks"
 
 }
