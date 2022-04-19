@@ -1,17 +1,17 @@
 
-module "rg" {
+module "spn" {
 
   source = "github.com/saiprakash07/terraform-azurerm-serviceprinciple"
 
 }
 
-module "vnet" {
+module "lgws" {
 
   source = "github.com/saiprakash07/terraform-azurerm-loganalytics"
 
 }
 
-module "subnet" {
+module "aks" {
 
   source = "github.com/saiprakash07/terraform-azurerm-aks"
 
