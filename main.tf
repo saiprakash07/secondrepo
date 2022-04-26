@@ -1,4 +1,5 @@
 
+
 module "spn" {
 
   source = "github.com/saiprakash07/terraform-azurerm-serviceprinciple"
